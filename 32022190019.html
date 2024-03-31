@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Pendaftaran Online</title>
+</head>
+<body>
+
+<h2>From Pendaftaran Online</h2>
+<h3>Mahasiswa UMKU</h3>
+<p>Silakan isi formulir pendaftaran di bawah ini:</p>
+
+<form action="proses_pendaftaran.php" method="post">
+  <label for="nama">Nama:</label><br>
+  <input type="text" id="nama" name="nama" required><br>
+  
+  <label for="alamat">Alamat:</label><br>
+  <textarea id="alamat" name="alamat" required></textarea><br>
+  
+  <label for="agama">Agama:</label><br>
+  <select id="agama" name="agama" required>
+    <option value="Islam">Islam</option>
+    <option value="Kristen">Kristen</option>
+    <option value="Katolik">Katolik</option>
+    <option value="Hindu">Hindu</option>
+    <option value="Buddha">Buddha</option>
+    <option value="Konghucu">Konghucu</option>
+    <option value="Lainnya">Lainnya</option>
+  </select><br>
+  
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" required><br>
+  
+  <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+  <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki" required>
+  <label for="laki_laki">Laki-laki</label><br>
+  <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+  <label for="perempuan">Perempuan</label><br>
+  
+  <label for="hobi">Hobi:</label><br>
+  <input type="checkbox" id="Sepak Bola" name="hobi[]" value="Sepak Bola">
+  <label for="Sepak Bola">Sepak Bola</label><br>
+  <input type="checkbox" id="Bulu Tangkis" name="hobi[]" value="Bulu Tangkis">
+  <label for="Bulu Tangkis">Bulu Tangkis</label><br>
+  <input type="checkbox" id="Komputer" name="hobi[]" value="Komputer">
+  <label for="Komputer">Komputer</label><br>
+  <input type="checkbox" id="Permainan Video" name="hobi[]" value="Permainan Video">
+  <label for="Permainan Video">Permainan Video</label><br>
+  <input type="checkbox" id="Internet" name="hobi[]" value="Internet">
+  <label for="Internet">Internet</label><br>
+
+  <label for="komentar">Komentar:</label><br>
+  <textarea id="komentar" name="komentar"></textarea><br>
+  <select id="emotikon" name="emotikon">
+    <option value="&#x1F600;">😀</option>
+    <option value="&#x1F601;">😁</option>
+    <option value="&#x1F602;">😂</option>
+    <!-- Anda dapat menambahkan emotikon lain di sini -->
+  </select><br>
+  <input type="submit" value="Daftar">
+</form>
+
+
+</body>
+</html>
+
+<h4>Terima Kasih Sudah Mendaftar</h4>
