@@ -18,6 +18,7 @@
     <hr />
 
     <header style="text-align: center;">
+    ![alt text](?raw=true)
         <img src="[image/Mohfauzan.jpg.jpeg](https://github.com/Mohammad-Fauzan/WEB-PRIBADI/blob/main/Mohfauzan.jpg.jpeg)" width="200" height="200" style="border-radius: 50%;"/>
         <h1>MOHAMMAD FAUZAN</h1>
         <p>(Web Developer)</p>
