@@ -1,2 +1,1 @@
-tugas2-32022190019.html
-Mohfauzan.jpg.jpeg
+http://127.0.0.1:5500/tugas2-32022190019.html
